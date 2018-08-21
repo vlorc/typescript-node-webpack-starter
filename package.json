@@ -1,15 +1,15 @@
 {
-  "name": "ts-star",
+  "name": "ts-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
-    "build": "webpack --config webpack.config.js",
-    "watch": "webpack --watch",
-    "build:prod": "npm run build --prod",
-    "start:prod": "npm run build:prod && node dist/main.js"
+    "build": "webpack --mode development",
+    "watch": "webpack webpack --mode development --watch",
+    "build:prod": "webpack --mode production",
+    "start:prod": "webpack --mode production && node dist/main.js"
   },
   "author": "",
   "license": "ISC",
