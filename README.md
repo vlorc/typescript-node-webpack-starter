@@ -1,8 +1,29 @@
 # Typescript-node-webpack-starter
 
-Typescript nodejs minimum project
+# Typescript node minimum project
 
 # Features
-+ compress
-+ merge
-+ debug
++ Webpack4
++ Compress
++ Merge
++ Debug
+
+### Quick Start
+
+* run
+
+```shell
+npm start
+```
+
+* tslint
+
+```shell
+npm tslint
+```
+
+* build
+
+```shell
+npm run build:prod
+```
